@@ -1,0 +1,43 @@
+include<iostream>
+using namespace std;
+
+int main (){
+
+int x,y, result;
+int longitud=0;
+
+
+cout<<"Digita el primer numero ";
+cin>> x;
+
+cout<<("Digita el segundo numero ");
+cin>>y;
+
+    
+    if(x <= 100 &&  y <= 100){
+    
+    result= x+y;
+    
+    cout<< "El resultado de la suma es: " << result;
+    
+    }
+	else{
+		
+			cout<<"Ningun numero debe ser mayor a 100 ";
+		
+	}   
+   
+   if (result%2==0 ){
+   	
+   	cout<< " El resultado es par ";
+   	
+   } else{
+   	
+   	cout<< " El resultado es impar ";
+   }
+
+   return 0;
+}
+
+
+
